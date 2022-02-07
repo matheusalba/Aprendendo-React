@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    
+    background-color: rgb(36, 36, 73);
+    min-width: 900px;
+}
+#barra{
+    display: flex;
+    justify-content: space-between;
+   
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#listaOpcoes{
+    display: flex;
+    font-family: "Poppins";
+    color: white;    
+}
+#conteudo{
+    height: 400px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: center;
+    
+}
+#logo{
+font-size: 30px;
+color:white;
+font-family: "Poppins";
+}
+.btn{
+    font-family: "Poppins";
+    border: none;
+    background: none;
+    font-size: 20px;
+    color:white;
+    margin: 5px;
+}
+#btnCadastro{
+    font-family: "Poppins";
+    border: none;
+    background: rgb(53, 175, 139);
+    font-size: 20px;
+    color:white;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+}
+#textoPrincipal{
+    text-align: center;
+    
+}
+#caixaTextoPrincipal{
+    font-size: 40px;
+    width: 600px;
+    font-family: "Poppins";
+    color: white;
+}
+#input{
+    width: 500px;
+    height: 50px;
+    font-size: large;
+}
+#caixaInput{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
